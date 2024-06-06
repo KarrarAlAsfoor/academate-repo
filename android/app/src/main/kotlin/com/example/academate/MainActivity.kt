@@ -1,4 +1,4 @@
-package com.example.gitpod_flutter_quickstart
+package com.example.academate
 
 import io.flutter.embedding.android.FlutterActivity
 
