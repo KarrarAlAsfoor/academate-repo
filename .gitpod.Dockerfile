@@ -9,7 +9,7 @@ ENV PATH="$HOME/flutter/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_
 USER root
 
 # Add Google Chrome repository key
-RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub
+RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add -
 
 RUN install-packages openjdk-8-jdk -y \
         libgtk-3-dev \
